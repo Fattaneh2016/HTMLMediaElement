@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head> 
+    <title></title>
+    <link href="StyleSheet.css" rel="stylesheet" />
+    <script src="Scripts/jquery-1.8.3.js"></script>
+    <script src="Script.js"></script>
+</head>
+<body>
+    <video id="media" height="480">
+        <source src="desktop.webm" type='video/webm; codecs="vorbis, vp8"' />
+        <source src="desktop.ogv" type='video/ogg; codecs="theora, vorbis"' />
+        <source src="desktop.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
+        <track id="englishtrack" kind="subtitles" src="captions.vtt" 
+         srclang="en" label="English" default="" />
+    </video>
+    <br />
+    <button type="button" id="play">Play</button>
+
+    </body>
+</html>
